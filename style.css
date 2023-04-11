@@ -1,0 +1,56 @@
+
+body {
+    background-color:#ffe6e6;
+    font-family: Arial, sans-serif;
+  }
+
+#items, #cart, #total {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #items > div {
+    width: 200px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  #items > div:hover {
+    background-color: #ee9797;
+  }
+  
+  #cart > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  #cart > div > button {
+    padding: 5px 10px;
+    background-color: rgb(24, 21, 21);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  #cart > div > button:hover {
+    background-color: darkred;
+  }
+  
+  #total {
+    font-size: 24px;
+    font-weight: bold;
+  }
